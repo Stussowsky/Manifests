@@ -1,0 +1,49 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://images.iiifhosting.com/iiif/65182669f57660cd141288861ef3b7301df8d7df5ccaeb3c1d9f483f90ce8cdc/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "iiif/65182669f57660cd141288861ef3b7301df8d7df5ccaeb3c1d9f483f90ce8cdc",
+  "description" : "iiif/65182669f57660cd141288861ef3b7301df8d7df5ccaeb3c1d9f483f90ce8cdc",
+  "metadata" : [
+    {
+      "label": "filename",
+      "value": "iiif/65182669f57660cd141288861ef3b7301df8d7df5ccaeb3c1d9f483f90ce8cdc"
+    }
+  ],
+  "sequences" : [
+    {
+      "@id" : "https://images.iiifhosting.com/iiif/65182669f57660cd141288861ef3b7301df8d7df5ccaeb3c1d9f483f90ce8cdc/seq0.json",
+      "@type" : "sc:Sequence",
+      "label": "iiif/65182669f57660cd141288861ef3b7301df8d7df5ccaeb3c1d9f483f90ce8cdc - sequence 1 0",
+      "canvases": [
+        {
+          "@id" : "https://images.iiifhosting.com/iiif/65182669f57660cd141288861ef3b7301df8d7df5ccaeb3c1d9f483f90ce8cdc/can0.json",
+          "@type" : "sc:Canvas",
+          "label": "iiif/65182669f57660cd141288861ef3b7301df8d7df5ccaeb3c1d9f483f90ce8cdc - image 0",
+          "width" : 7548,
+          "height" : 7194,
+          "images": [
+            {
+              "@id" : "https://images.iiifhosting.com/iiif/65182669f57660cd141288861ef3b7301df8d7df5ccaeb3c1d9f483f90ce8cdc/anot0.json",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://images.iiifhosting.com/iiif/65182669f57660cd141288861ef3b7301df8d7df5ccaeb3c1d9f483f90ce8cdc/can0.json",
+              "resource": {
+                "@id" : "https://images.iiifhosting.com/iiif/65182669f57660cd141288861ef3b7301df8d7df5ccaeb3c1d9f483f90ce8cdc/full/full/0/native.jpg",
+                "@type" : "dctypes:Image",
+                "format" : "image/jpeg",
+                "width" : 7548,
+                "height" : 7194,
+                "service" : {
+                  "@context" : "http://iiif.io/api/image/2/context.json",
+                  "@id" : "https://images.iiifhosting.com/iiif/65182669f57660cd141288861ef3b7301df8d7df5ccaeb3c1d9f483f90ce8cdc",
+                  "profile" : "http://iiif.io/api/image/2/level1.json"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
